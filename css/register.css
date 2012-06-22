@@ -1,0 +1,115 @@
+#container {
+    width: 837px;
+    margin: 10px auto;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #aeaeae;
+    padding-bottom: 40px;
+}
+
+#header {
+    width: 837px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+#registrationForm {
+    display: block;
+    width: 585px;
+    margin: 0 auto 10px;
+    clear: both;
+}
+
+.holder {
+    width: 585px;
+    height: 30px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.submitButton {
+    margin: 0;
+    width: 382px;
+    padding: 7px 0;
+    color: #333;
+    font-weight: bold;
+    background-color: #FFEC46;
+    background-repeat: repeat-x;
+    background-image: -khtml-gradient(linear,left top,left bottom,from(#ffec46),to(#fa2));
+    background-image: -moz-linear-gradient(#ffec46,#fa2);
+    background-image: -ms-linear-gradient(#ffec46,#fa2);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#ffec46),color-stop(100%,#fa2));
+    background-image: -webkit-linear-gradient(#ffec46,#fa2);
+    background-image: -o-linear-gradient(#ffec46,#fa2);
+    background-image: linear-gradient(#ffec46,#fa2);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-color: #FD9D00;
+}
+
+.formErrors {
+    margin-bottom: 10px;
+    color: #ffaaaa;
+    font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+
+.sideTip {
+    position: absolute;
+    left: 402px;
+    width: 250px;
+}
+
+
+.sideTip p {
+    margin-top:8px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #dedede;
+    font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.sideTip p.usernameOk, .sideTip p.emailOk, .sideTip p.passwordOk {
+    color: #99ff66;
+    font-weight: bold;
+}
+
+.sideTip p.usernameWarnLength, .sideTip p.emailWarnInvalid, .sideTip p.passwordWarnLength {
+    color: #ffaaaa;
+}
+
+.sideTip p.usernameWarnUnique, .sideTip p.emailWarnUnique {
+    color: #fed22f;
+}
+
+.submitButton:hover {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 40px 0 20px 0;
+    font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #dedede;
+}
+
+.registrationInput {
+    padding: 4px;
+    width: 382px;
+    height: 30px;
+    font: 13px/20px "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #dedede;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    background: transparent;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+input:focus {
+    outline: 0;
+    border-color: #56b4ef;
+    color: #dedede;
+}

@@ -1,0 +1,73 @@
+#instructionsContainer {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #fff;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+#instructionsList {
+    width: 260px;
+    min-height: 400px;
+    margin: 0;
+    position: relative;
+    float: left;
+    color: #dedede;
+    border-right: 1px solid #dedede;
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+#instructionsList li {
+    width: 260px;
+    margin: 0;
+    border-bottom: 1px solid #dedede;
+    position: relative;
+    float: left;
+}
+
+#instructionsList li a {
+    width: 240px;
+    margin: 10px auto;
+    text-decoration: none;
+    position: relative;
+    float: left;
+    padding-left: 10px;
+}
+
+#instructionsList li:hover {
+    background-color: #b0b2b7;
+    cursor: pointer;
+    color: #0f1835;
+}
+
+#instructionsContent {
+    width: 678px;
+    position: relative;
+    float: left;
+    color: #dedede;
+    padding: 10px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.instructionsQuestion h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.instructionsQuestion p {
+    width: 600px;
+    margin: 5px auto;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.instructionsQuestion li {
+    width: 540px;
+    margin: 0px auto;
+    font-size: 14px;
+    list-style-type: circle;
+
+}

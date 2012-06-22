@@ -1,0 +1,123 @@
+#header {
+    width: 960px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #dedede;
+}
+
+#topBar {
+    height: 30px;
+    background-color: #222;
+    border-bottom: 1px solid #aeaeae;
+    position: relative;
+    margin-top: -16px;
+}
+
+#topBarContainer {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.topBarUsername {
+    font-weight: bold;
+    color: #fff;
+}
+
+#twitterFollow {
+    position: relative;
+    float: left;
+    margin-top: 4px;
+}
+
+#topBarLogout {
+    position: relative;
+    float: right;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+#googleAd {
+    width: 468px;
+    height: 60px;
+    position: relative;
+    float: right;
+}
+
+#topBarForm {
+    position: relative;
+    float: right;
+    margin-top: 2px;
+}
+
+#topBarMessage {
+    position: relative;
+    float: right;
+    color: #dedede;
+    font-size: 12px;
+    line-height: 30px;
+    font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#logo {
+    position: relative;
+    float: left;
+    margin: 0;
+}
+
+#loginForm {
+    position: relative;
+    float: right;
+}
+
+#loggedIn {
+    position: relative;
+    float: right;
+}
+
+#loginErrorMessage {
+    color: #ff3333;
+    font-size: 75%;
+    font-weight: bold;
+}
+
+form {
+    margin-bottom: 0;
+}
+
+#navigationMenu {
+    width: 960px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+#navigationMenu ul {
+    list-style: none;
+    margin: 0;
+}
+
+#navigationMenu li {
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#navigationMenu li:hover {
+    cursor: pointer;
+}
+
+#navigationMenu li a {
+    color: #dedede;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 0 22px;
+    text-decoration: none;
+}
+
+#navigationMenu li:hover a {
+    color: #ffffff;
+}
+

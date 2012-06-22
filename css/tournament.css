@@ -1,0 +1,214 @@
+#tournamentContainer {
+    width: 960px;
+    height: 1879px;
+    margin: 0 auto;
+    border: 1px solid #dedede;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-image: url("../images/stripes.png");
+    background-repeat: repeat;
+    overflow: hidden;
+    position: relative;
+}
+
+.tournamentTeam {
+    width: 252px;
+    height: 40px;
+    background-color: #dedede;
+    margin-bottom: 4px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border: 2px solid #222;
+    overflow: hidden;
+    position: relative;
+}
+
+.firstRoundTeam {
+    width: 232px;
+    height: 40px;
+    background-color: #dedede;
+    margin-bottom: 4px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border: 2px solid #222;
+    overflow: hidden;
+}
+
+.firstRoundLabel {
+    width: 236px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin-bottom: 4px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.firstRoundPair {
+    width: 236px;
+    height: 120px;
+    position: relative;
+    float: left;
+    margin-left: 2px;
+    margin-right: 2px;
+
+}
+
+.tournamentTeamSeed {
+    width: 22px;
+    height: 40px;
+    background-color: #222;
+    color: #fff;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 38px;
+    position: relative;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+}
+
+.tournamentTeamName {
+    color: #333;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 13px;
+    position: relative;
+    line-height: 40px;
+    font-weight: bold;
+    float: left;
+    margin-left: 2px;
+}
+
+.tournamentTeamIcon {
+    background-color: #111;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 40px;
+}
+
+#southRegion {
+    width: 252px;
+    height: 820px;
+    float: left;
+    position: relative;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+#eastRegion {
+    width: 252px;
+    height: 820px;
+    float: right;
+    position: relative;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
+#westRegion {
+    width: 252px;
+    height: 800px;
+    float: left;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#midwestRegion {
+    width: 252px;
+    height: 800px;
+    float: right;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#firstRoundGames {
+    margin-top: 20px;
+    width: 960px;
+    background-color: #dedede;
+    position: relative;
+}
+
+#bracketBackgroundTop {
+     position: absolute;
+     left: 281px;
+     top: 104px;
+     z-index: 20;
+}
+
+#bracketBackgroundBottom {
+    position: absolute;
+    left: 281px;
+    top: 944px;
+    z-index: 20;
+}
+
+.teamCloseButton {
+    position: absolute;
+    z-index: 997;
+    left: 225px;
+    top: 10px;
+    width: 17px;
+    height: 17px;
+    background-color:#dedede;
+    border: 1px solid #666666;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.teamCloseButton:hover {
+    background-color:#adadad;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+.droppableHoverClass {
+    border: 2px solid #ffffff;
+    background-color: #ccccee;
+}
+
+#southLabel {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+#eastLabel {
+    position: absolute;
+    top: 10px;
+    left: 690px;
+}
+
+#westLabel {
+    position: absolute;
+    top: 850px;
+    left: 20px;
+}
+
+#midwestLabel {
+    position: absolute;
+    top: 850px;
+    left: 690px;
+}
+
+.regionLabel {
+    width: 252px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin-bottom: 4px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border: 2px solid #dedede;
+}
